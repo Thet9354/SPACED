@@ -1,0 +1,409 @@
+<resources>
+    <string name="app_name">SPACED</string>
+
+    <string name="facebook_application_id">3195364960713523</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+    <!-- Planets -->
+    <!-- Heading -->
+    <string name="The_Moon">Moon</string>
+    <string name="Uranus">Uranus</string>
+    <string name="Mars">Mars</string>
+    <string name="Mercury">Mercury</string>
+    <string name="Venus">Venus</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturn">Saturn</string>
+    <string name="Neptune">Neptune</string>
+    <string name="Eris">Eris</string>
+    <string name="Pluto">Pluto</string>
+    <string name="Makemake">Makemake</string>
+    <string name="Ceres">Ceres</string>
+
+    <!--Price-->
+    <string name="Moon_Price">$2999</string>
+    <string name="Uranus_price">$3999</string>
+    <string name="Mars_price">$5999</string>
+    <string name="Mercury_price">$9999</string>
+    <string name="Venus_price">$10,099</string>
+    <string name="Jupiter_price">$4999</string>
+    <string name="Saturn_price">$5999</string>
+    <string name="Neptune_price">$7999</string>
+    <string name="Eris_price">$8999</string>
+    <string name="Pluto_price">$10,099</string>
+    <string name="Makemake_price">$13,999</string>
+    <string name="Ceres_price">$15,899</string>
+
+
+    <!-- Description -->
+    <string name="The_Moon_Description">An astronomical body that orbits planet Earth, being Earth\'s only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits (its primary).</string>
+    <string name="Uranus_Description">An astronomical body that orbits planet Earth, being Earth\'s only permanent natural satellite. It is the fifth-largest natural satellite in the SoUranus is similar in composition to Neptune, and both have different bulk chemical composition from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as “ice giants” to distinguish them from the gas giants.</string>
+    <string name="Mars_Description">Mars is the forth planet from the sun and the second-smallest planet in the solar system after Mercury. Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the valleys, deserts, and polar ice caps of Earth.</string>
+    <string name="Mercury_Description">Mercury is the closest planet to the Sun at a distance of 57 million kilometers / 35 million miles. Out of all the terrestrial planets, Mercury is the smallest. It is also the smallest planet in the Solar System.</string>
+    <string name="Venus_Description">Venus is the second planet from the Sun, and the sixth-largest planet in the Solar System. It is the only planet named after a female deity and the brightest planet in the Solar System. Venus and Mercury are the only planets in the Solar System that do not have a moon.</string>
+    <string name="Jupiter_Description">Jupiter is the fifth planet from the Sun and the biggest planet of our Solar System. Some consider it a failed star since it is made out of swirling gases and liquids such as 90% hydrogen, and 10% helium – very similar to the Sun. Jupiter is the fourth brightest object in the sky and one of the five visible planets.</string>
+    <string name="Saturn_Description">Saturn is the sixth planet from the Sun with the largest planetary rings in the Solar System. It is the second-largest planet in the Solar System after Jupiter with surface area 83 times greater than Earth. Saturn has a radius of 58.232 kilometers / 36.183 miles and a diameter of 120.536 km / 74.897 mi.</string>
+    <string name="Neptune_Description">Neptune is the farthest planet from the Sun at an average distance of 4.5 billion kilometers / 2.8 billion miles. Neptune is the fourth-largest planet in the Solar System and the smallest of the gas giants. Both Neptune and Uranus are termed ice giants since they have different compositions than Saturn and Jupiter.</string>
+    <string name="Ceres_Description">Ceres is the first dwarf planet to receive a visit from a spacecraft. It is the only dwarf planet located in the inner solar system. It does not have any moons or rings, and scientist believe that it also lacks a magnetosphere. It was first considered a planet, then it was demoted to asteroid, the first of its kind, and then it was classified as a dwarf planet.</string>
+    <string name="Pluto_Description">Pluto is the ninth-largest and tenth most massive known object directly orbiting the Sun. However, when it comes to the trans-Neptunium objects, it is the largest by volume but less massive than Eris. It is named after the Roman god of the underworld, the equivalent of Hades in Greek mythology.</string>
+    <string name="Makemake_Description">Makemake was the fourth dwarf planet to be discovered. This included Pluto who was reclassified. Makemake is about a fifth as bright as Pluto. It is dimmer than Pluto yet brighter than Eris.</string>
+    <string name="Eris_Description">Eris is the most distant discovered dwarf planet from the Sun and has the greatest mass of the five dwarf planets. \n It was nicknamed Xena by the team, and later named Eris, after the ancient Greek goddess of discord and strife. The name fits since Eris remains at the center of a scientific debate about the definition of a planet. It also led to Pluto’s demotion from a planet to a dwarf planet.</string>
+
+
+    <!-- Climate -->
+    <string name="Moon_climate">Temperatures vary from 140°C to −171°C, and cosmic rays.</string>
+    <string name="Mars_climate">Temperature vary from -225°F to 95°F in equatorial summer</string>
+    <string name="Uranus_climate">Uranus is known to have a bright south polar region.</string>
+    <string name="Mercury_climate">Temperature ranges from 100 to 700 K(−173 to 427 °C).</string>
+    <string name="Venus_climate">Temperatures is known to ranges around 465°C / 900°F.</string>
+    <string name="Jupiter_climate">Temperature is known to vary from -145°C / -234°F</string>
+    <string name="Saturn_climate">Temperature of Saturn’s atmosphere is on average about -175C(-285F)</string>
+    <string name="Neptune_climate">Temperature of Neptune has an average temperature of -214°C. </string>
+    <string name="Ceres_climate">Temperature of Ceres is about 235K / -36°F or minus 38°C.</string>
+    <string name="Pluto_climate">Temperature of Pluto varies from -375 to -400°F or -226 to -240°C.</string>
+    <string name="Makemake_climate">Temperature of Makemake is estimated to be around -239°C.</string>
+    <string name="Eris_climate">Temperature of Eris varies between about −243.2 and −217.2°C. </string>
+
+
+    <!-- Physical -->
+    <string name="Moon_physical">Covered with dead volcanoes, impact craters, and lava flows.</string>
+    <string name="Mars_physical">Mars is approximately half the diameter of the earth</string>
+    <string name="Uranus_physical">Uranus\'s mass is roughly 14.5 times that of earth.</string>
+    <string name="Mercury_physical">Mercury is covered with craters of around 1.300km across.</string>
+    <string name="Venus_physical">Venus consist of thin crust of rock and creates volcanoes.</string>
+    <string name="Jupiter_physical">Jupiter does not surface, but it have a core about the size of Earth\'s</string>
+    <string name="Saturn_physical">Saturn have a dense core in the center, composed of water, ice, and rock.</string>
+    <string name="Neptune_physical">Neptune is basically a thick fog of water, ammonia, and methane.</string>
+    <string name="Ceres_physical">Ceres is covered in small, young craters, no larger than 280 kilometers.</string>
+    <string name="Pluto_physical">Pluto has a surface characterized of mountains, valleys and craters</string>
+    <string name="Makemake_physical">Makemake appears red in the visible spectrum and redder than Eris.</string>
+    <string name="Eris_physical">Eris is believed that it is largely composed of rocky materials</string>
+
+    <!-- Space Center -->
+    <string name="Leicester">Leicester Space Center</string>
+    <string name="Toulouse">Toulouse Space Center</string>
+    <string name="Noordwijk">Noordwijk Space Center</string>
+    <string name="Washington">Washington Space Center</string>
+    <string name="Wallasey">Wallasey Space Port</string>
+    <string name="Transinne">Transinne Euro Space</string>
+    <string name="Kennedy">Kennedy Space Center</string>
+
+    <!-- Planets full description -->
+    <string name="Moon_fullDescription">The Moon, otherwise known as Luna, is the only natural satellite of Earth. It was created 4.6 billion years ago, and it is widely accepted that it was created when Earth collided with a planet-sized object called Theia. It’s the fifth-largest moon in our solar system and is the second brightest object in the sky (after the Sun).</string>
+    <string name="Mars_fullDescription">Mars is widely known as the Red planet. Its reddish appearance is caused by the presence of rusty iron in the ground. The name of the month March is derived from Mars.Mars is visible to the naked eye, and as such, you can see it without the use of a telescope or binoculars. The Red planet is very similar to Earth, and scientists are trying to find out if life was present there.</string>
+    <string name="Uranus_fullDescription">Though it is visible to the naked eye, Uranus escaped clear classification for decades. Generally mistaken for a star, it is speculated that Hipparchos might have recorded it first in 128 BC in his star catalogue. Later it was incorporated into Ptolemy’s Almagest.However, the earliest definite sighting was in 1690. John Flamsteed observed it six times, cataloguing it as 34 Tauri. Later it was observed for about fourteen-times by Charles Le Monnier between 1750 and 1769. The man who finally solved this elusive object was William Herschel who observed it on 13 March 1781 with a telescope.</string>
+    <string name="Mercury_fullDescription">Mercury is named after the Roman god of commerce, travel, and thievery. In Greek mythology, Mercury was known as Hermes, the messenger of the gods. It probably received this name because it moves very quickly across the sky. Mercury is slightly bigger than Earth’s Moon, and it is also very similar in appearance to our Moon. Mercury itself doesn\’t have any moons. The planet can be seen without binoculars or telescopes, but since it is so near to the Sun, it may be hard to see in the early evening skies.</string>
+    <string name="Venus_fullDescription">Venus is the second planet from the Sun and the sixth-largest. Together with Mercury, they are the only planets without a satellite, even though Mercury is closer to the sun, Venus is the hottest planet. It is theorized that Venus was formed about 4.5 billion years ago when gravity pulled swirling gas and dust together to form the second planet and it later settled into its current layout.</string>
+    <string name="Jupiter_fullDescription">The planet Jupiter is named after the supreme Roman god. To the ancient Greeks, he was known as Zeus, ruler of the Greek gods, and Mount Olympus. The planet is very similar to a star, but it never got big enough to start burning. Jupiter has rings surrounding it, but they are very faint and hard to see. It is the planet with the second-most moons, 79, after Saturn, who has 82. The closest planets to Jupiter are Mars and Saturn. The planet can be seen with the naked eye, you don’t need a telescope or a pair of binoculars to see it.</string>
+    <string name="Saturn_fullDescription">Saturn - also nicknamed the Ringed Planet – has been observed since ancient times by different cultures around the world. Because of this, no one can be credited with first discovering the planet. Though it is the most distant of the visible planets, it still can be seen with the naked eye. Because of the planet\’s slow orbit around the sun, it was associated with time, and due to its golden-like glow, it was also associated with wealth. It was thus named after the Roman god of wealth and agriculture Saturn, which is the equivalent of the Greek god of time, Cronos.</string>
+    <string name="Neptune_fullDescription">The perturbed orbit of Uranus forced astronomers to conclude that another undiscovered planet must be at fault. They predicted where it should be, and astronomer Urbain Le Verrier asked the help of Johann Galle, an astronomer at the Berlin Observatory. Galle found the planet one degree away from the predicted point thus making Neptune the first planet to be discovered by mathematical calculations and predictions. Galle proposed the name Janus, the Roman god with two faces and La Verrier proposed the name Neptune, however he did tried to name the planet after him but he didn’t have popular support outside of France. The astronomer Struve, came out in favor of the name Neptune in December 29th 1846. Soon after, it became wildly accepted. Neptune was the Roman god of the sea, identified with the Greek Poseidon as the planet appeared water-like in color.</string>
+    <string name="Eris_fullDescription">Eris received an informal name, Xena, which was used internally by the discovery team. Supposedly the team had already saved this name to be used by the time a new object was discovered, that would be bigger than Pluto. Many other names were then proposed and finally the name Eris was given in 2006. The reason for this is because the object was considered a planet for a long time and thus it deserved a name from the Greek or Roman mythology, like the other planets. Since Eris is the goddess of strife and discord, it symbolically represented the discord in the astronomical community caused by the debate over the object’s and Pluto’s classification.</string>
+    <string name="Makemake_fullDescription">Makemake is the second furthest dwarf planet from the Sun located beyond Neptune’s orbit. Discovered in 2005, it is the third-largest known dwarf planet. Makemake is luckier than Ceres since it’s located with its other fellow dwarf planets Eris, Pluto and Haumea, in the Kuiper Belt, a region outside of Neptune’s orbit. It is the second-brightest object in the Kuiper Belt with Pluto being the brightest.</string>
+    <string name="Pluto_fullDescription">Pluto is the largest known dwarf planet in the Solar System, discovered in 1930. It was thought to be the 9th planet of our system for 75 years until the discovery of Eris and other similar objects that led to its demotion from a planet to a dwarf planet in 2006. The name Pluto was proposed by Venetia Burney, an eleven schoolgirl in Oxford, England, after a survey was conducted, and the name Pluto won by votes. The name was announced on May 1, 1930. The then little girl received a modern equivalent of 450 USD. The final choice of a name was helped in part by the fact that the first letters of Pluto are the initials of Percival Lowell.</string>
+    <string name="Ceres_fullDescription">Ceres is a dwarf planet, and the only who isn’t located in the Kuiper Belt but rather in the inner solar system in the asteroid belt between the orbits of Mars and Jupiter. Discovered in 1801, it was considered a planet for a year, and then an asteroid, the first of its kind until 2006, when it was classified as of dwarf planet being the smallest of them.</string>
+
+    <!-- SPACE ID -->
+    <string name="SPACED_ID_1">NP9354-X</string>
+    <string name="SPACED_ID_2">TP8339-Y</string>
+    <string name="SPACED_ID_3">RP9147-Z</string>
+    <string name="SPACED_ID_4">ZU3953-W</string>
+    <string name="SPACED_ID_5">SQ1048-L</string>
+    <string name="SPACED_ID_6">JH4821-W</string>
+    <string name="SPACED_ID_7">EQ49837-D</string>
+    <string name="SPACED_ID_8">LJ37194-P</string>
+    <string name="SPACED_ID_9">FX4814-R</string>
+    <string name="SPACED_ID_10">AL3874-P</string>
+
+    <!-- Departure planet -->
+    <string name="Departure_Planet_1">Earth</string>
+    <string name="Departure_Planet_2">Earth</string>
+    <string name="Departure_Planet_3">Earth</string>
+
+    <!-- Arrival planet -->
+    <string name="Arrival_Planet_1">Mars</string>
+    <string name="Arrival_Planet_2">Mercury</string>
+    <string name="Arrival_Planet_3">Jupiter</string>
+
+    <!-- Departure country -->
+    <string name="Departure_country_1">Singapore</string>
+    <string name="Departure_country_2">United states of America</string>
+    <string name="Departure_country_3">Dubai</string>
+
+    <!-- Arrival planet area  -->
+    <string name="Arrival_planet_area_1">Amenedieal</string>
+    <string name="Arrival_planet_area_2">Scrolly</string>
+    <string name="Arrival_planet_area_3">Jesterex</string>
+
+    <!-- Departure time  -->
+    <string name="Departure_time_1">9:50 PM</string>
+    <string name="Departure_time_2">10:35 AM</string>
+    <string name="Departure_time_3">4:15 PM</string>
+    <string name="Departure_time_4">1:26 pm</string>
+    <string name="Departure_time_5">9:58 pm</string>
+    <string name="Departure_time_6">3:58 pm</string>
+    <string name="Departure_time_7">8:03 am</string>
+    <string name="Departure_time_8">9:34 pm</string>
+    <string name="Departure_time_9">10:20 am</string>
+    <string name="Departure_time_10">9:13 pm</string>
+    <string name="Departure_time_11">11:40 am</string>
+    <string name="Departure_time_12">2:26 pm</string>
+    <string name="Departure_time_13">6:28 pm</string>
+    <string name="Departure_time_14">5:03 pm</string>
+    <string name="Departure_time_15">5:56 pm</string>
+    <string name="Departure_time_16">11:22 am</string>
+    <string name="Departure_time_17">10:09 am</string>
+    <string name="Departure_time_18">12:48 pm</string>
+    <string name="Departure_time_19">11:27 am</string>
+    <string name="Departure_time_20">10:40 am</string>
+    <string name="Departure_time_21">10:02 am</string>
+    <string name="Departure_time_22">12:22 pm</string>
+    <string name="Departure_time_23">8:18 pm</string>
+    <string name="Departure_time_24">11:30 am</string>
+    <string name="Departure_time_25">7:26 pm</string>
+    <string name="Departure_time_26">9:15 pm</string>
+    <string name="Departure_time_27">8:10 am</string>
+    <string name="Departure_time_28">1:13 pm</string>
+    <string name="Departure_time_29">1:06 pm</string>
+    <string name="Departure_time_30">6:24 pm</string>
+
+
+    <!-- Arrival time  -->
+    <string name="Arrival_time_1">5:00 AM</string>
+    <string name="Arrival_time_2">3:25 PM</string>
+    <string name="Arrival_time_3">4:10 AM</string>
+    <string name="Arrival_time_4">9:52 am</string>
+    <string name="Arrival_time_5">7:19 pm</string>
+    <string name="Arrival_time_6">9:14 am</string>
+    <string name="Arrival_time_7">9:57 am</string>
+    <string name="Arrival_time_8">8:33 am</string>
+    <string name="Arrival_time_9">12:37 pm</string>
+    <string name="Arrival_time_10">2:44 pm</string>
+    <string name="Arrival_time_11">10:55 am</string>
+    <string name="Arrival_time_12">6:15 pm</string>
+    <string name="Arrival_time_13">7:18 pm</string>
+    <string name="Arrival_time_14">5:54 pm</string>
+    <string name="Arrival_time_15">6:14 pm</string>
+    <string name="Arrival_time_16">8:16 am</string>
+    <string name="Arrival_time_17">12:34 pm</string>
+    <string name="Arrival_time_18">7:46 pm</string>
+    <string name="Arrival_time_19">8:20 am</string>
+    <string name="Arrival_time_20">4:43 pm</string>
+    <string name="Arrival_time_21">9:28 am</string>
+    <string name="Arrival_time_22">7:44 pm</string>
+    <string name="Arrival_time_23">11:08 pm</string>
+    <string name="Arrival_time_24">11:41 am</string>
+    <string name="Arrival_time_25">4:05 pm</string>
+    <string name="Arrival_time_26">7:10 pm</string>
+    <string name="Arrival_time_27">8:47 pm</string>
+    <string name="Arrival_time_28">9:36 pm</string>
+    <string name="Arrival_time_29">5:42 pm</string>
+    <string name="Arrival_time_30">1:04 pm</string>
+
+    <!-- Durations to respective planets -->
+    <string name="Duration_to_Moon">15 Hr 30 Min</string>
+    <string name="Duration_to_Mercury">20 Hr 15 Min</string>
+    <string name="Duration_to_Venus">14 Hr 45 Min</string>
+    <string name="Duration_to_Mars">10 Hr 25 Min</string>
+    <string name="Duration_to_Jupiter">23 Hr 45 Min</string>
+    <string name="Duration_to_Saturn">25 Hr 50 Min</string>
+    <string name="Duration_to_Uranus">28 Hr 20 Min</string>
+    <string name="Duration_to_Neptune">32 Hr 45 Min</string>
+    <string name="Duration_to_Pluto">35 Hr 15 Min</string>
+    <string name="Duration_to_Eris">40 Hr 55 Min</string>
+    <string name="Duration_to_Ceres">28 Hr 30 Min</string>
+    <string name="Duration_to_Makemake">48 Hr 10 Min</string>
+
+
+    <!-- Departure date  -->
+    <string name="Departure_date_1">Fri, 10 Feb</string>
+    <string name="Departure_date_2">Mon, 23 Apr</string>
+    <string name="Departure_date_3">Tue, 15 Dec</string>
+
+    <!-- Arrival date  -->
+    <string name="Arrival_date_1">Mon, 12 Apr</string>
+    <string name="Arrival_date_2">Tues, 05 May</string>
+    <string name="Arrival_date_3">Fri, 10 Jan</string>
+
+    <!--Payment page condition-->
+    <string name="paymentPage_condition">By tapping Place Order, you accept and agree to all terms\nof SPACED Sales &amp; Refund Policy and SPACED\'s Privacy Policy.</string>
+
+
+    <!-- Your account -->
+    <string name="Your_account">See information about your account, download an archive of your data, or learn about your account deactivation options.</string>
+
+    <!-- Security and account access -->
+    <string name="security_and_account">Manage your account\'s security and keep track of your account\'s usage including apps that you have connected to your account</string>
+
+    <!-- Privacy and safety -->
+    <string name="privacy_and_safety">Manage what information you see and share on Twitter.</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Select the kinds of notifications you get about your activities, interest, and recommendations.</string>
+
+    <!-- Accessibility, display, and language -->
+    <string name="accessibility">Manage how SPACED content is displayed to you.</string>
+
+    <!-- Additional resources -->
+    <string name="Additional_resources">Check out other places for helpful information to learn more about SPACED products and services.</string>
+
+    <!-- Your account description -->
+    <string name="YourAccount_description">See information about your account, download an archive of your data, or learn about your account deactivation options.</string>
+
+    <!-- Account information -->
+    <string name="accInfo">See information about your account, download an archive of your data, or learn about your account deactivation options.</string>
+
+    <!-- Change Password -->
+    <string name="changePassword">Change your password at any time.</string>
+
+    <!-- Download an archive of your data -->
+    <string name="dataArchive">Get insights into the type of information stored for your account.</string>
+
+    <!-- Deactivate account -->
+    <string name="deactivateAcc">Find out how you can deactivate your account.</string>
+
+    <!-- Security and account access description -->
+    <string name="security_account_access_description">Manage your account\'s security and keep track of your account\'s usage including apps that you have connected to your account.</string>
+
+    <!-- Security -->
+    <string name="security">Manage your account\'s security</string>
+
+    <!-- Apps and session -->
+    <string name="apps_and_session">See information about when you logged into your account and the apps you connected to your account.</string>
+
+    <!-- Connected accounts -->
+    <string name="connectedAcc">Manage Google or Apple accounts connected to SPACED to log in.</string>
+
+    <!-- Ads preference -->
+    <string name="adsPreference">Manage your ads experience on SPACED.</string>
+
+    <!-- Off-SPACED activity -->
+    <string name="off_spaced_activity">Manage how SPACED uses your online activity outside of SPACED, such as the website you visit, to personalize your experience.</string>
+
+    <!-- Data sharing with business partner -->
+    <string name="dataSharing">Allow sharing of additional information with SPACED\'s business partners.</string>
+
+    <!-- Location information -->
+    <string name="locationInfo">Manage the location information SPACED uses to personalize your experience.</string>
+
+    <!-- Notification description -->
+    <string name="notificationDesc">Select the kind of notifications you get about your activities, interests, and recommendations.</string>
+
+    <!-- Filters -->
+    <string name="filters">Choose the notifications you will like to see-and those you don\'t</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Select your preferences by notification type.</string>
+
+    <!-- Accessibility, display, languages description-->
+    <string name="accessibility_display_language_description">Manage how twitter content is displayed to you.</string>
+
+    <!-- Accessibility -->
+    <string name="Accessibility">Manage aspects of your SPACED experience such as limiting color contrast and motion. These settings affect all the SPACED accounts on the device.</string>
+
+    <!-- Display and sound -->
+    <string name="display_and_sound">Manage your font size, color and background.These settings affect all of SPACED accounts on this device.</string>
+
+    <!-- Languages -->
+    <string name="Languages">Manage which languages are used to personalize your SPACED experience.</string>
+
+    <!-- Data usage -->
+    <string name="dataUsage">Limit how SPACED uses some of your network data. These settings affect all the SPACED accounts on this device.</string>
+
+    <!-- Deactivation text -->
+    <string name="txtAccDeactivation">You\'re about to start the process of deactivating your SPACED account. Your display name, @username, and profile will no longer be viewable on SPACED.com, SPACED for iOS, or SPACED for Android.</string>
+
+    <!-- What else you should know -->
+    <string name="WhatElseToKnow">You can restore your SPACED account if it was accidentally or wrongfully deactivated for up to 30days after deactivation. \n \nSome account information may still be available in search engines, such as Google or Bing. \n \nIf you just want to change your @username, you don\'t need to deactivate your account - edit it in your settings. \n \nTo use your current @username or email address with a different SPACED account, change them before you deactivate this account. \n \nIf you want to download your SPACED data, you\'ll need to complete both the request and download process before deactivating your account. Links to download your data cannot be sent to deactivate accounts.</string>
+
+    <!-- Two-factor authentication-->
+    <string name="two_factor_authentication">Protect your account from unauthorized access by requiring a second authentication method in addition to your SPACED password. You can choose text message, authentication app, or security key.</string>
+
+    <!-- Password reset protection -->
+    <string name="passwordProtection">For added protection, you\'ll need to confirm your email address or phone number to reset your SPACED password.</string>
+
+    <!-- Ads preference -->
+    <string name="adsPreference_description">You will always see ads on SPACED based on your activity. When this setting is enabled, SPACED may further personalize ads from SPACED advertisers, on and off SPACED, by combining your activity with other online activity and information from our partners.</string>
+
+    <!-- SPACED content across web -->
+    <string name="SPACED_content_across_web">This setting lets SPACED keep track of your visits to other websites that integrate SPACED content, such as embedded timelines. That information makes SPACED better for you, such as by personalizing your experience. This web browsing history will never be stored with your name email, or phone number.</string>
+
+    <!-- Personalized identity -->
+    <string name="personalizedIdentity">SPACED will always personalize your experience based on information you\'ve provided, as well as the devices you\'ve used to log in. When this setting is enabled, SPACED may also personalize based on other inferences about your identity, like devices and browsers you haven\'t used to log in to SPACED or email addresses and phone numbers similar to those linked to your SPACED account.</string>
+
+    <!-- Off-SPACED activity -->
+    <string name="off_SPACED_description">Manage how SPACED uses your online activity outside of SPACED, such as the websites you visit, to personalize your experience.</string>
+
+    <!-- Information sharing -->
+    <string name="infoSharing">SPACED always shares information with business partners as a way to run and improve its products. When enabled, this allows SPACED to share additional information with those partners to help support running SPACED\'s business, including making SPACED\'s marketing activities on other sites and apps more relevant for you.</string>
+
+    <!-- Personalize location -->
+    <string name="personalizeLocation">SPACED always uses some information, like where you signed up and your current location, to help show you more relevant content. When this setting is enabled, SPACED may also personalize your experiences - for example, showing you more local content, ads, and recommendations.</string>
+
+    <!-- Precise location -->
+    <string name="preciseLocation">If enabled, SPACED will collect, store, and user your device\'s precise location, such as GPS information. This lets SPACED improve your experience-for example, showing you more local content, ads, and recommendations.</string>
+
+    <!-- Privacy policy intro -->
+    <string name="privacyPolicyIntro">Last update: 03/7/22 \n\n This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the app.\n\nWe use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</string>
+
+    <!-- Log data -->
+    <string name="logData">Like many app operators, we collect information that your browser sends whenever you visit our App.\n\n This Log Data may include information such as your computer\'s Internet Protocol (IP) address, browser type, browser version, the pages of our app that you visit, the time and date of your visit, the time spent on those pages and other statistics.</string>
+
+    <!-- Communication -->
+    <string name="communication">We will not use your Personal Information to contact you with newsletter, marketing or promotional materials and other information. We will only be contacting you through email with regards to new updates of the app and replies to our user\'s feedback.</string>
+
+    <!-- Information collection and use -->
+    <string name="infoCollection">While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information will include your name, contact information.</string>
+
+    <!-- Security -->
+    <string name="privacyPolicy_security">The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</string>
+
+    <!-- Changes to privacy policy -->
+    <string name="privacyPolicy_changes">This Privacy Policy is effective as of (add date) and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.\n\nWe reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.\n\n If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our app.</string>
+
+    <!-- Accessibility -->
+    <string name="Accessibility_desc">Manage aspects of your SPACED experience such as limiting color contrast and motion. These settings affect all the SPACED accounts on this device.</string>
+
+    <!-- Reduce motion -->
+    <string name="reduceMotion">Limits the amount of in-app animations, including screen transitions and live engagement counts.</string>
+
+    <!-- Reader view -->
+    <string name="readerView">Change text size, contrast, and page layout on website for improved readability.</string>
+
+    <!-- Display and sound description -->
+    <string name="display_and_sound_desc">Manage your font size, color and background. These settings affect all the SPACED accounts on this device.</string>
+
+    <!-- Display and sound description -->
+    <string name="display_sound_desc">Manage your font size, color and background. These settings affect all the SPACED accounts on this device.</string>
+
+    <!-- Display text demo -->
+    <string name="displayDemo">At the hear of SPACED are short messages called SPACEDTweets - just like this one - which can include photos, videos, links and text.</string>
+
+    <!-- Recommendations -->
+    <string name="recommendations">Select which languages you want text, people, and trends to include.</string>
+
+    <!-- Data usage -->
+    <string name="dataUsage_desc">limit how SPACED uses some of your network data. These settings affect all the SPACED accounts on this device.</string>
+
+    <!-- Data saver -->
+    <string name="dataSaver">When enabled, videos won\'t autoplay and lower-quality images load. This automatically reduces your data usage for all SPACED accounts on this device.</string>
+
+    <!-- Legal notice -->
+    <string name="legalNotice">Copyright © 2022–2031 P.Thet Pine. All rights reserved.\n\nCreated and based partly on code by P. Thet Pine on 4/7/22. \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction,including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: \n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. \n\nAny person wishing to distribute modifications to the Software is asked to send the modifications to the original developer so that they can be incorporated into the canonical version. This is, however, not a binding provision of this license. \n\nTHE SOFTWARE IS PROVIDED [AS IF], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+
+    <!-- Authentication app -->
+    <string name="authenticationApp">Use an app to get an authentication code to enter when you log in to SPACED.</string>
+
+    <!-- Security key -->
+    <string name="securityKey">Use a security key that inserts into your computer or syncs to your mobile device when you log in to SPACED. You\'ll need to use a supported mobile device or web browser.</string>
+
+    <!-- Quality filter  -->
+    <string name="qualityFilter">Filter lower-quality content from your notifications. This won\'t filter out notifications from people you follow or accounts you\'ve interacted with recently.</string>
+
+    <!-- Email notification -->
+    <string name="emailNotification_desc">Get emails to find out what\'s going on when you\'re not on SPACED. You can turn them off anytime.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

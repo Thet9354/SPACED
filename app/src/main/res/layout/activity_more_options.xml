@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreOptions_Activity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_gray">
+
+        <TextView
+            android:id="@+id/txtView_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:text="Cancel"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More options"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/txtView_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/blue"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Shipping Total"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/txtView_shippingTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:text="S$0.00" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHIPPING INFORMATION"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postal Code"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"/>
+
+        <EditText
+            android:id="@+id/editTxt_postalCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:text="750314"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_gray"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a business address"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_businessAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELIVERY OPTIONS"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_gray">
+
+        <TextView
+            android:id="@+id/txtView_orderItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:text="Space Ticket - Mercury - SP39427-\nLeicester Space Center" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_timeslots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_gray">
+
+        <RadioButton
+            android:id="@+id/rb_standard_shipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Standard Shipping"/>
+
+        <RadioButton
+            android:id="@+id/rb_shipping_slot1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Shipping, 9.00am to 12.00pm"/>
+
+        <RadioButton
+            android:id="@+id/rb_shipping_slot2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Shipping, 12.00pm to 5.00pm"/>
+
+        <RadioButton
+            android:id="@+id/rb_shipping_slot3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Shipping, 5.00pm to 9.00pm"/>
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

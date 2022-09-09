@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    android:background="@drawable/black_sapce_bg"
+    tools:context=".Ticket_Activity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Heading -->
+            <RelativeLayout
+                android:id="@+id/rel_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtView_heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="S P A C E D"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To space and back, safely."
+                    android:layout_below="@+id/txtView_heading"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+
+
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/dark_gray"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtView_adult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Adult"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtView_adultNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_toLeftOf="@id/txtView_adult"
+                    android:text="1"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/btn_addAdventurer"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/plus_icon" />
+
+                <ImageView
+                    android:id="@+id/btn_minusAdventurer"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/minus_icon" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/dark_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose destination"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/btn_planetMoreInfo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/question_icon"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="-30dp"/>
+
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/dark_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rel_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/planet_slideViewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:elevation="18dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_planetName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="260dp"
+                    android:text="Moon"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtView_planetPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtView_planetName"
+                    android:layout_centerHorizontal="true"
+                    android:text="Starting at $2999"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/dark_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LaunchPad"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/dark_gray"
+                android:layout_marginTop="5dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/launchPad_slideViewpager"
+                    android:layout_width="250dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:elevation="18dp" />
+
+
+                <ImageView
+                    android:id="@+id/btn_rightArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/right_arrow_icon" />
+
+                <ImageView
+                    android:id="@+id/btn_leftArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/left_icon" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/dark_gray"/>
+
+            <Button
+                android:id="@+id/btn_proceed"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:text="Proceed"
+                android:textAllCaps="true"
+                android:backgroundTint="@color/dark_gray"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

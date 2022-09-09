@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:id="@+id/parent"
+    tools:context=".MyFlightFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtView_myFlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="My flights"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtView_myFlight"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Go to space station in"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_add"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/add_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_add"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:text="16:39 h"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!--Main Ticket-->
+<!--            <androidx.cardview.widget.CardView-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="350dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                app:cardBackgroundColor="#7bc8ad"-->
+<!--                android:elevation="18dp"-->
+<!--                app:cardElevation="8dp">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rel_flightDetails"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/SPACE_ID"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="SP4892-X"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:layout_marginLeft="15dp"-->
+<!--                        android:drawablePadding="5dp"-->
+<!--                        android:drawableLeft="@drawable/language_icon"-->
+<!--                        android:drawableTint="@color/black"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_marginTop="25sp"-->
+<!--                        android:layout_marginRight="15sp"-->
+<!--                        android:text="SPACED"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_earth"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/SPACE_ID"-->
+<!--                        android:layout_marginLeft="16dp"-->
+<!--                        android:layout_marginTop="15dp"-->
+<!--                        android:text="Earth"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="30dp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_country"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_earth"-->
+<!--                        android:layout_marginLeft="18dp"-->
+<!--                        android:text="Singapore"-->
+<!--                        android:textColor="@color/dark_gray"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_arrivalPlanet"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@+id/SPACE_ID"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_marginTop="16dp"-->
+<!--                        android:layout_marginRight="18dp"-->
+<!--                        android:text="Mars"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="30dp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_arrivalArea"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_arrivalPlanet"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:text="Esrauts"-->
+<!--                        android:textColor="@color/dark_gray"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_departureTime"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="09:15 AM"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_below="@id/txtView_country"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginLeft="18dp"-->
+<!--                        android:textSize="15sp"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_departureDate"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_departureTime"-->
+<!--                        android:layout_marginLeft="18dp"-->
+<!--                        android:text="Fri, 05 Sep"-->
+<!--                        android:textColor="@color/dark_gray" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_arrivalTime"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_arrivalArea"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:text="06:45 PM"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_arrivalDate"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_arrivalTime"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:text="Mon, 17 Jun"-->
+<!--                        android:textColor="@color/dark_gray"/>-->
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtView_boardingPass"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_arrivalDate"-->
+<!--                        android:layout_marginLeft="18sp"-->
+<!--                        android:layout_marginTop="60dp"-->
+<!--                        android:text="Boarding pass"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="290dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/txtView_boardingPass"-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        android:src="@drawable/barcode"/>-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/ticket_slideViewpager"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:elevation="18dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/txtView_pastFLights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Past flights"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(5)"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_toRightOf="@id/txtView_pastFLights"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtView_seeAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:text="See All"
+                    android:textColor="#7bc8ad"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!--Next ticket-->
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:layout_width="330dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/dark_gray">
+
+                <RelativeLayout
+                    android:id="@+id/rel_pastFlightDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/pastSPACE_ID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:drawableLeft="@drawable/language_icon"
+                        android:drawablePadding="5dp"
+                        android:text="SP4892-X"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="25sp"
+                        android:layout_marginRight="15sp"
+                        android:text="SPACED"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastDeparturePlanet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pastSPACE_ID"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Earth"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastDeparturePlanet"
+                        android:layout_marginLeft="18dp"
+                        android:text="Singapore"
+                        android:textColor="@color/dark_gray"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastArrivalPlanet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/pastSPACE_ID"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="18dp"
+                        android:text="Mercury"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastArrivalArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastArrivalPlanet"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="20dp"
+                        android:text="Esrauts"
+                        android:textColor="@color/dark_gray"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastDepartureTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastCountry"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="20dp"
+                        android:text="09:15 AM"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastDepartureDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastDepartureTime"
+                        android:layout_marginLeft="18dp"
+                        android:text="Fri, 05 Sep"
+                        android:textColor="@color/dark_gray" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastArrivalTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastArrivalArea"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="06:45 PM"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtView_pastArrivalDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastArrivalTime"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="20dp"
+                        android:text="Mon, 17 Jun"/>
+
+
+                    <TextView
+                        android:id="@+id/txtView_pastBoardingPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastArrivalDate"
+                        android:layout_marginLeft="18sp"
+                        android:layout_marginTop="60dp"
+                        android:text="Boarding pass"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtView_pastBoardingPass"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/barcode" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

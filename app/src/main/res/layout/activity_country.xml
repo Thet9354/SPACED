@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registeration_bg"
+    tools:context=".Country_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Country"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtView_Done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="Done"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Current country-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtView_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:singleLine="true"
+                    android:text="Current country"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.example.spaced.CustomSpinner
+                    android:id="@+id/spinner_currentCountry"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bg_spinner_country"
+                    android:ems="10"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <!--New country-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/txtView_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:singleLine="true"
+                    android:text="New country"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.example.spaced.CustomSpinner
+                    android:id="@+id/spinner_newCountry"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bg_spinner_country"
+                    android:ems="10"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/transparent_btn"
+                android:text="Update"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTxt_password" />
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:background="@drawable/round_back_white10_20"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="15dp">-->
+
+<!--                -->
+<!--                <RadioGroup-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_gravity="right"-->
+<!--                    android:inputType="text"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    &lt;!&ndash;Austria&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Austria"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layoutDirection="rtl"-->
+<!--                        android:textAlignment="textStart"-->
+<!--                        android:layout_gravity="start"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Austria"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Finland&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Finland"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Finland"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Netherlands&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Netherlands"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Netherlands"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Ireland&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Ireland"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Ireland"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Sweden&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Sweden"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Sweden"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Germany&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_germany"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Germany"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Denmark&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Denmark"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Denmark"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Switzerland&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Switzerland"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Switzerland"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Norway&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Norway"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Norway"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;France&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_France"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="France"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Spain&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Spain"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Spain"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Canada&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Canada"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Canada"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Bulgaria&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Bulgaria"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Bulgaria"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Belgium&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Belgium"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Belgium"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Estonia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Estonia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Estonia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;United_Kingdom&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_United_Kingdom"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="United Kingdom"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Luxembourg&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Luxembourg"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Luxembourg"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;New_Zealand&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_New_Zealand"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="New Zealand"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Italy&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Italy"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Italy"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Australia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Australia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Australia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Latvia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Latvia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Latvia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Cyprus&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Cyprus"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Cyprus"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Singapore&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Singapore"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Singapore"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Japan&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Japan"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Japan"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;North_Macedonia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_North_Macedonia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="North Macedonia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;South_Korea&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_South_Korea"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="South Korea"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Moldova&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Moldova"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Moldova"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Slovakia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Slovakia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Slovakia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Romania&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Romania"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Romania"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Portugal&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Portugal"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Portugal"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Poland&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Poland"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Poland"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Czech_Republic&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Czech_Republic"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Czech Republic"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Slovenia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Slovenia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Slovenia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Costa_Rica&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Costa_Rica"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Costa_Rica"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Chile&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Chile"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Chile"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Iceland&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Iceland"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Iceland"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Lithuania&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Lithuania"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Lithuania"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Georgia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Georgia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Georgia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Hungary&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Hungary"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Hungary"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;United_States&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_United_States"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="United States"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Russia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Russia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Russia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Greece&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Greece"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Greece"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Bosnia_and_Herzegovina&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Bosnia_and_Herzegovina"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Bosnia and Herzegovina"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;India&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/India"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="India"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Malaysia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Malaysia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Malaysia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Armenia&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Armenia"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Armenia"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;South_Africa&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_South_Africa"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="South_Africa"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Mauritius&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Mauritius"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Mauritius"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Uruguay&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Uruguay"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Uruguay"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                    &lt;!&ndash;Albania&ndash;&gt;-->
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_Albania"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="right"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawablePadding="30dp"-->
+<!--                        android:drawableRight="@android:drawable/btn_radio"-->
+<!--                        android:text="Albania"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
+
+<!--                </RadioGroup>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

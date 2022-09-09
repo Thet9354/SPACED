@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.spaced">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".UserPreference"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SPACED"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MoreOptions_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatBot_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ShippingInfo_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CardPayment_info_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TicketSchedule_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Selected_Flight_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CeresPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MakemakePage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PlutoPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ErisPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NeptunePage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SaturnPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JupiterPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".VenusPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MercuryPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UranusPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MarsPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MoonPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ticket_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainNavigationPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MyFlight_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Country_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".High_quality_videos_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".High_QualityImage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Email_Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SMS_Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Push_Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Two_Factor_authentication_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Update_Email_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Update_PhoneNumber_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Update_Username_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Legal_Notice_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Data_Usage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Languages_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Display_sound_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Accessibility_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Preference_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Filters_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Location_Information_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DataSharing_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Off_SPACED_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".adPreference_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Connected_account_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Connected_Accounts_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Security_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Deactivate_Account_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Account_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Additional_Resources_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Accessibility_display_language_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_and_safety_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Security_and_account_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".YourAccount_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsPage_Activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name=".PersonalDecloration_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Registeration_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".StartingPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuPage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Moon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Uranus_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mars_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

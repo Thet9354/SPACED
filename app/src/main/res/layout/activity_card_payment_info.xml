@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CardPayment_info_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/dark_gray">
+
+        <TextView
+            android:id="@+id/txtView_cancelPaymentCardInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Cancel"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtView_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtView_savePaymentCardInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:text="Save"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView_address"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtView_payment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_searchview"
+            android:focusable="false"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@null"
+            app:queryHint="Search for a place or address" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAYMENT METHOD"
+                android:textSize="12sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <!--Payment Method-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <!--Credit Card Number-->
+                <RelativeLayout
+                    android:id="@+id/rel_yourAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_creditCardNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Credit Card Number"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_creditCard"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/img_paymentType"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/mastercard_ic" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Security Code-->
+                <RelativeLayout
+                    android:id="@+id/rel_securityCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_securityCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Security Code"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_securityCode"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Month-->
+                <RelativeLayout
+                    android:id="@+id/rel_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Month"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_month"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Year-->
+                <RelativeLayout
+                    android:id="@+id/rel_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Year"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_year"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accepted Payment methods: Visa, Mastercard, AMEX."
+                android:textSize="11sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BILLING ADDRESS"
+                android:textSize="12sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="15dp"/>
+
+
+            <!--BILLING ADDRESS-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <!--First name-->
+                <RelativeLayout
+                    android:id="@+id/rel_firstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_firstName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="First Name"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_firstName"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Last Name-->
+                <RelativeLayout
+                    android:id="@+id/rel_lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_lastName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Last Name"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_lastName"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Company Name-->
+                <RelativeLayout
+                    android:id="@+id/rel_companyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_companyName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Company Name"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_companyName"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Optional"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Street Address-->
+                <RelativeLayout
+                    android:id="@+id/rel_streetAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_streetAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Street Address"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_streetAddress"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Apt.,Suite,Bldg.-->
+                <RelativeLayout
+                    android:id="@+id/rel_apartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_apartment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Apt.,Suite,Bldg."
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_apartment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Postal Code-->
+                <RelativeLayout
+                    android:id="@+id/rel_postalCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_postalCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Postal Code"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_postalCode"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Country/Region-->
+                <RelativeLayout
+                    android:id="@+id/rel_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_region"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Country/Region"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/txtView_country"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:text="Singapore"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Phone-->
+                <RelativeLayout
+                    android:id="@+id/rel_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_phoneNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Phone"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_phoneNumber"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:text="93542856"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Alternate Phone-->
+                <RelativeLayout
+                    android:id="@+id/rel_alternatePhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_alternatePhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Alternate Phone"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_alternatePhone"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Optional"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="378dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="end"
+                    android:background="@color/gray"/>
+
+                <!--Email-->
+                <RelativeLayout
+                    android:id="@+id/rel_Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Email"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/editTxt_Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="150dp"
+                        android:background="@null"
+                        android:hint="Required"
+                        android:text="thetpine254@gmail.com"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--Default credit card-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <!--Default credit card-->
+                <RelativeLayout
+                    android:id="@+id/rel_defaultCC"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/txtView_defaultCC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="Save as my default credit card information"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/defaultCC_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="20dp"
+                        android:checked="true"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/greenSwitch"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

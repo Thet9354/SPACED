@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable-anydpi/eye_icon.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/bg_searchview.xml" value="0.24" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/bg_spinner_country.xml" value="0.2475" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/cardview.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/description_bg.xml" value="0.177" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/grey_button_corner.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/light_gray_rounded_shape_bg.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/navigation_bar_bg.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/round_back_night_mode.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/round_back_notifications.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/round_back_secondary_100.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/round_back_white10_20.xml" value="0.336" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/round_corners.xml" value="0.336" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/drawable/transparent_btn.xml" value="0.215" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_accessibility.xml" value="0.4658008658008658" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_accessibility_display_language.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_account.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_ad_preference.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_additional_resources.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_card_payment_info.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_ceres_page.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_change_password.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_chat_bot.xml" value="0.47192982456140353" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_connected_account.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_connected_accounts.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_country.xml" value="0.37844036697247707" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_data_sharing.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_data_usage.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_deactivate_account.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_display_sound.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_email_notification.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_eris_page.xml" value="0.44780701754385965" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_filters.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_flight_schedule.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_high_quality_image.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_high_quality_videos.xml" value="0.1986842105263158" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_jupiter_page.xml" value="0.44780701754385965" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_languages.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_legal_notice.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_location_information.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_main.xml" value="0.5374358974358975" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_main_menu_page.xml" value="0.4658008658008658" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_main_navigation_page.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_makemake_page.xml" value="0.4631578947368421" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_mars.xml" value="0.55" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_mars_page.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_mecury_page.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_mercury_page.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_moon.xml" value="0.4462962962962963" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_moon_page.xml" value="0.4536796536796537" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_more_options.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_my_flight.xml" value="0.4536796536796537" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_neptune_page.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_notification.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_off_spaced.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_payment.xml" value="0.4631578947368421" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_personal_decloration.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_pluto_page.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_preference.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_privacy_and_safety.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_privacy_policy.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_push_notification.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_registeration.xml" value="0.55" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_saturn_page.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_security.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_security_and_account.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_selected_flight_details.xml" value="0.40405557641757417" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_settings_page.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_shipping_info.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_sms_notification.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_starting_page.xml" value="0.4" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_ticket.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_ticket_schedule.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_two_factor_authentication.xml" value="0.4658008658008658" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_update_email.xml" value="0.4658008658008658" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_update_phone_number.xml" value="0.4658008658008658" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_update_username.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_uranus.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_uranus_page.xml" value="0.45087719298245615" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_venus_page.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/activity_your_account.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/bot_reply.xml" value="0.25" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/fragment_home.xml" value="0.44780701754385965" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/fragment_my_flight.xml" value="0.41706161137440756" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/fragment_schedule_.xml" value="0.45964912280701753" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/fragment_shop.xml" value="0.44780701754385965" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/header.xml" value="0.5458333333333333" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/item_country.xml" value="0.5484375" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/launchpad_slider_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/phone_number_verification.xml" value="0.4536796536796537" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/row_item_country.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/slide_layout.xml" value="0.541025641025641" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/testing.xml" value="0.28794848206071755" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/testing02.xml" value="0.45281385281385284" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/ticket_planet_layout.xml" value="0.4587719298245614" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/ticket_slider_layout.xml" value="0.46271929824561403" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/timing_recycler_view_row.xml" value="0.33425925925925926" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/layout/user_holder.xml" value="0.45670995670995673" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4587719298245614" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/menu/main_menu.xml" value="0.5458333333333333" />
+        <entry key="..\:/Users/Phoon Thet Pine/AndroidStudioProjects/SPACED/app/src/main/res/xml/network_security_config.xml" value="0.25921052631578945" />
+        <entry key="..\:/Users/Phoon Thet Pine/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/btn_radio.xml" value="0.336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

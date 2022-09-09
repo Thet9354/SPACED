@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second_space_bg"
+    tools:context=".Selected_Flight_Details_Activity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back_icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Personal details of passenger 1-->
+            <RelativeLayout
+                android:id="@+id/rel_passenger1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp">
+
+                <TextView
+                    android:id="@+id/txtView_passenger1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger 1"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger1_fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtView_passenger1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger1_email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger1_fullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger1_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger1_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <DatePicker
+                    android:id="@+id/datePicker_passenger1"
+                    android:layout_below="@+id/editTxt_passenger1_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true"/>
+
+
+
+
+            </RelativeLayout>
+
+            <!--Personal details of passenger 2-->
+            <RelativeLayout
+                android:id="@+id/rel_passenger2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtView_passenger2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger 2"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger2_fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtView_passenger2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger2_email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger2_fullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger2_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger2_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <DatePicker
+                    android:id="@+id/datePicker_passenger2"
+                    android:layout_below="@+id/editTxt_passenger2_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true"/>
+
+
+
+
+            </RelativeLayout>
+
+            <!--Personal details of passenger 3-->
+            <RelativeLayout
+                android:id="@+id/rel_passenger3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtView_passenger3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger 3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger3_fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtView_passenger3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger3_email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger3_fullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger3_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger3_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <DatePicker
+                    android:id="@+id/datePicker_passenger3"
+                    android:layout_below="@+id/editTxt_passenger3_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true"/>
+
+
+
+
+            </RelativeLayout>
+
+            <!--Personal details of passenger 4-->
+            <RelativeLayout
+                android:id="@+id/rel_passenger4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtView_passenger4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger 4"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger4_fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtView_passenger4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger4_email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger4_fullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger4_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger4_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <DatePicker
+                    android:id="@+id/datePicker_passenger4"
+                    android:layout_below="@+id/editTxt_passenger4_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true"/>
+
+
+
+
+            </RelativeLayout>
+
+            <!--Personal details of passenger 5-->
+            <RelativeLayout
+                android:id="@+id/rel_passenger5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtView_passenger5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger 5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger5_fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtView_passenger5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger5_email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger5_fullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <EditText
+                    android:id="@+id/editTxt_passenger5_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTxt_passenger5_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+                <DatePicker
+                    android:id="@+id/datePicker_passenger5"
+                    android:layout_below="@+id/editTxt_passenger5_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_proceedPayment"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:text="Proceed to payment"
+                android:textAllCaps="true"
+                android:backgroundTint="@color/dark_gray"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

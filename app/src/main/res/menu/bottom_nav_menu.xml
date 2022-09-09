@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_ticket"
+        android:title="Tickets"
+        android:iconTint="@color/black"
+        app:cnb_backgroundColor="@color/black"
+        android:icon="@drawable/black_ticket_icon"/>
+
+    <item
+        android:id="@+id/bottom_nav_schedule"
+        android:title="Schedule"
+        android:iconTint="@color/black"
+        app:cnb_backgroundColor="@color/black"
+        android:icon="@drawable/calendar_icon"/>
+
+    <item
+        android:id="@+id/bottom_nav_shop"
+        android:title="Shop"
+        android:iconTint="@color/black"
+        app:cnb_backgroundColor="@color/black"
+        android:icon="@drawable/shopping_icon"/>
+
+
+</menu>
